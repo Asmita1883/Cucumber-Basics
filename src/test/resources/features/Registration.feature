@@ -16,4 +16,4 @@ Feature: User Registration
 @Map
   Scenario: User Registration as Map
   Given   I am on the registration page of the application
-  When    I enter 
+  When    I enter
