@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinition", "hooks"},
         tags = "@Prod",
         dryRun = false,
-        plugin = {"pretty"},publish = true)
+        plugin = {"pretty", "json:target/reports/report.json"},publish = true)
 public class TestRunner {
 
 }
